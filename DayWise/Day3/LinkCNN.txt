@@ -1,0 +1,4 @@
+http://scs.ryerson.ca/~aharley/vis/conv/flat.html
+
+
+https://colah.github.io/posts/2015-08-Understanding-LSTMs/

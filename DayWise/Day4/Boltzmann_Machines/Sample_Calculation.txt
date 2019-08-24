@@ -1,0 +1,20 @@
+Oscar winners		LOTR3, Gladiator,Titanic
+SF/fantasy				Harry Potter,Avatar,Glitter
+
+Steven: (Harry Potter = 1,	Avatar = 1,	LOTR 3 = 1, Gladiator = 0, Titanic = 0, Glitter = 0). Big SF/fantasy fan.
+Mark: 	(Harry Potter = 1, 	Avatar = 0, 	LOTR 3 = 1, Gladiator = 0, Titanic = 0, Glitter = 0). SF/fantasy fan, but doesn't like Avatar.
+John: 	(Harry Potter = 1, 	Avatar = 1, 	LOTR 3 = 1, Gladiator = 0, Titanic = 0, Glitter = 0). Big SF/fantasy fan.
+Mary: 	(Harry Potter = 0, 	Avatar = 0, 	LOTR 3 = 1, Gladiator = 1, Titanic = 1, Glitter = 0). Big Oscar winners fan.
+Chris: 	(Harry Potter = 0, 	Avatar = 0, 	LOTR 3 = 1, Gladiator = 1, Titanic = 1, Glitter = 0). Oscar winners fan, except for Titanic.
+Lee: 		(Harry Potter = 0, 	Avatar = 0, 	LOTR 3 = 1, Gladiator = 1, Titanic = 1, Glitter = 0). Big Oscar winners fan.
+
+
+
+							Bias Unit       	Hidden 1        		Hidden 2
+
+Harry Potter    	-0.82602559     	-7.08986885      	4.96606654 
+Avatar          		-1.84023877     	-5.18354129      	2.27197472 
+LOTR 3           	3.92321075      	2.51720193      	4.11061383 
+Gladiator        	0.10316995      	6.74833901     		-4.00505343 
+Titanic         		-0.97646029      	3.25474524     		-5.59606865 
+Glitter         		-4.44685751     	-2.81563804     	-2.91540988

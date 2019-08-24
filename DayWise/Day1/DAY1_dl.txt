@@ -1,0 +1,134 @@
+
+Patterns
+2=4
+3=6
+4=8
+5=10
+6=??????
+
+
+Machine Learning
+	Making predictions on dependent variable (y) 
+		using independent variables (X)
+
+Predict 	y	Salary
+Based on 	X	YrsOFExp 
+
+Predict	y	Salary
+Based on	X	YrsOfExp, City, Marital Status , NumOfNeigb.,Edu,Skills
+		Relevant    *        ^                     ^                *      *
+			
+Exploration of Data		80%
+	Explore the patterns available in the data manually 
+	Cleaning of Data
+			removing unwanted rows
+			type cast values
+			fillup missing values
+			calculate relevant values 
+	Feature Selection
+			1)Domain Knowledge initial selection
+			2)Check for each X correaltion with Y 
+			3)Fit that into model and check accuracy and 					evaluate the features
+			
+Model implementation	20%
+	Data preprocessing			Encoding categorical Features
+			Dummy variable creation
+			Scaling of Values
+			Spliting data into training and testing
+	
+	Choose the best model with highest accuracy		
+		
+		
+
+
+jupyter notebook --notebook-dir="C:\______"
+
+
+Machine Learning
+
+Supervised Learning	=> Hand holding and teaching the machine
+		Regression
+			Linear Regression
+		Classification
+			Kernel - SVM 
+
+UnSupervised Learning
+		Cluster
+			k-means
+
+
+Linear Regression
+
+	y = b0 + b1x1
+
+
+	salary   = basepkg + (+1yr)*totalExp
+
+y	Salary		dependent variable
+x1	YrsOfExp		Independent Variable
+
+b0	intercept / constant / bias
+b1	slope / coeff.
+
+
+		ML		DL
+		numpy		tensors
+y		1d array
+
+X		2d Matrix
+
+
+True	1
+False	0
+
+California		0
+Florida		1
+New York		2
+Texas		3
+
+numOfUnq values > 2, then we need to create dummy variables
+numOfDummyVar = numOfUniqValues -1
+
+		app	web	app_web
+		X1	X2	X3
+		C_d0	F_d1	NY_d2
+New York		0	0	1
+California		1	0	0	
+Florida		0	1	0	
+New York		0	0	1	
+Florida		0	1	0
+New York		0	0	1
+California
+Florida
+New York
+California
+Florida
+California
+
+
+
+
+
+
+
+sum(y)*sum(x^2) - sum(x)sum(xy)
+------------------------------------------b0 = intercept
+n*sum(x^2) - sum(x)^2
+
+
+
+n*sum(xy) - sum(x)*sum(y)
+--------------------------------b1 = slope
+n*sum(x^2) - sum(x)^2
+
+
+
+
+
+
+
+
+
+
+
+

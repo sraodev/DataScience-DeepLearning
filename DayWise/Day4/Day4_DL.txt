@@ -1,0 +1,61 @@
+
+Installing PyTorch
+
+WinOS		Anaconda Prompt
+			conda install -c pytorch pytorch
+
+MacOS		Terminal
+			conda install -c pytorch pytorch
+
+
+UnSupervised Learning
+==================
+Boltzmann Machine
+AutoEncoders
+
+
+self.W = torch.randn(nh,nv)
+
+	v1	v2	v3	v4
+
+h1
+h2
+h3
+h4
+h5
+.....
+
+self.W.t()
+	h1	h2	h3	h4	h5
+v1
+v2
+v3
+v4
+v5
+v6
+.......
+
+
+
+
+Use Case  RBM : Predict binary output of like/not Like for unseen movies 
+
+Use Case AE : Predict rating(1-5) of the movie that user would view 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

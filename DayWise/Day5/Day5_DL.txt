@@ -1,0 +1,139 @@
+
+
+
+
+Machine Learning / Deep Learning Algorithm
+
+                               NLTK
+Text Data		===> Natural Lang. Processing ===> Numbers
+
+Supervised Learning
+UnSupervised Learning
+
+
+Reviews									Liked
+
+Wow... Loved this place.				1
+Crust is not good.						0
+Great place will come back !!!		1
+
+
+Step1: Remove all non-alphabets from the reviews, python re package
+
+Wow Loved this place				
+Crust is not good						
+Great place will come back 
+
+
+Step2: Convert the string to lower case, python string function
+
+wow loved this place				
+crust is not good						
+great place will come back 
+
+Step3: Split the review into array of words , python split function,Tokenization
+
+[wow ,loved, this, place	]			
+[crust ,is ,not ,good]						
+[great ,place, will, come ,back ]
+
+Step4: Loop through array words  and eliminate stop words using nltk
+
+[wow ,loved,  place	]			
+[crust ,not ,good]						
+[great ,place ]
+
+			Lemmitization
+Step5: Stemming of words , stem the word to its root
+love		lovely		loved		lovable	
+
+[wow ,love,  place	]			
+[crust ,not ,good]						
+[great ,place ]
+
+Step6: Join the words from array back to a stmt 
+
+wow love  place				
+crust not good						
+great place 
+
+
+Step7: Term freq. matrix from the stmts above, CountVectorizer
+
+							wow	love	place		crust		not	good		great		Liked
+
+wow love  place 		1	1		1			0			0			0		0				1
+crust not good			0	0		0			1			1			1		0				0			
+great place 				0	0		1			0			0			0		1				1
+
+
+Step8: Appy Naive Bayes classification Algorithm from ML supervised Learning
+
+
+
+Google Stock price
+
+60 days prior stock price   TimeStep  X_train
+61st day 										   y_train
+
+Input statment 
+
+It is a way I have of driving _ _ _ _ _ _ _ _ _ _ _ _ ______ predict next 50 words 
+
+
+
+
+
+
+
+doc1 = "Chocolate is bad to consume. My friend likes to have chocolate, but not my brother."
+doc2 = "My brother spends a lot of time cycling with my friend around to the ground."
+doc3 = "Doctors suggest that cycling may cause increased stress and damage to knees."
+doc4 = "Sometimes I feel pressure to perform well at college."
+doc5 = "Health experts say that Chocolate is not good for your lifestyle."
+
+# compile documents
+doc_complete = [doc1, doc2, doc3, doc4, doc5]
+
+Topic        0             1           2          0         1       2
+doc1 = "Chocolate ,bad ,consume,chocolate, not brother."
+
+				Topic0		Topic1		Topic2
+doc1			  2               2              2
+
+Topic          0           1       2      0
+doc2 = "Chocolate ,good , not ,brother."
+
+Topic			Topic0		Topic1		Topic2
+doc2			  2               1              1
+				
+					Topic0		Topic1		Topic2
+chocolate			3				0				0
+bad					0				1				0
+consume			0				0				1
+not					0				1				1
+good					0				1				0
+brother				1				0				1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

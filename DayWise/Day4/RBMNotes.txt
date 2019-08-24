@@ -1,0 +1,23 @@
+Link to download Data for RBM-AE
+https://grouplens.org/datasets/movielens/
+
+
+p(v|h)
+
+	v1	v2	v3	v4	.... v1682
+h1	
+h2
+h3
+h4
+..
+h100
+
+p(hj|v) = sigmoid(bias+vi*wij)
+
+	h1	h2	h3	h4	... h100
+v1
+v2
+v3
+v4
+....
+n1682

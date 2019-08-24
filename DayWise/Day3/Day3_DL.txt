@@ -1,0 +1,71 @@
+
+
+DeepLearning
+
+Supervised Learning		-Train- X features & y Features
+ANN
+CNN	
+RNN-LSTM
+
+UnSupervised Learning		-Train- X features 
+
+BM
+AE
+SOM
+
+Link for Image Classification sample code:
+
+https://www.tensorflow.org/beta/tutorials/keras/basic_classification
+
+
+
+
+
+Steven saw Mark.
+Mark saw John.
+John saw Steven.
+
+
+
+
+
+ht-1	Mark saw John.
+xt	John ............		
+
+			saw , steven, Mark, -John.
+
+
+
+
+
+She is Beautiful
+
+He is handsome
+
+She is Beautiful girl
+He is handsome boy
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

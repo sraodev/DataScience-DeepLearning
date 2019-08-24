@@ -1,0 +1,7 @@
+Dense Layers
+
+output_size * (input_size + 1) == number_parameters
+
+Conv Layers
+
+output_channels * (input_channels * window_size + 1) == number_parameters

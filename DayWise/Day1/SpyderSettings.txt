@@ -1,0 +1,33 @@
+python -m pip install --upgrade pip
+
+conda install tensorflow keras
+
+
+conda install spyder=3.3.3
+
+pip install --upgrade keras
+pip install --upgrade tensorflow
+
+
+conda list 
+pip list
+
+## if enum / enum34 exists do the following
+
+pip unistall enum
+## OR
+pip unistall enum34
+
+
+
+## if enum / enum34 doesnot exists do the following
+
+conda install jedi=0.11.0
+conda install parso=0.1.0
+
+
+
+
+
+
+

@@ -1,0 +1,18 @@
+Installing Keras
+Connect to Clear internet, disconnect from VPN
+
+WinOS	=> Anaconda prompt (Run as Admin)
+
+		conda install tensorflow
+		conda install keras
+
+MacOS	=> Open Terminal
+
+		conda install tensorflow
+		conda install keras
+------------------------------------------------------------------------------
+Once Install do the following
+Open Spyder, if open Restart Kernel
+Run the below import
+
+	import keras

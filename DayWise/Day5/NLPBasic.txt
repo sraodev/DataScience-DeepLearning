@@ -1,0 +1,96 @@
+
+Natural Lang. Processing
+nltk
+
+Review								Liked
+
+Wow... Loved this place.		1
+Crust is not good!!!!				0
+Great place will come back.	1
+
+Step1:  Removing all non-alphabets, import re (regExp) [^a-zA-z]
+
+Wow Loved this place
+Crust is not good			
+Great place will come back
+
+Step2: Convert it to lower case
+
+wow loved this place
+crust is not good			
+great place will come back
+
+Step3: Split the stmt at space to make arry of words, Tokenizing
+
+[wow 
+loved 
+this 
+place]
+
+[crust 
+is 
+not 
+good	]
+		
+[great 
+place 
+will 
+come 
+back]
+
+Step4: Eliminate Stop words, nltk.stopwords('english')
+
+[wow 
+loved 
+place]
+
+[crust 
+not 
+good	]
+		
+[great 
+place ]
+
+Step5:Stem the words / Lemmitization, nltk
+
+[wow 
+love
+place]
+
+[crust 
+not 
+good	]
+		
+[great 
+place ]
+
+Step6: join words in array to a stmt 
+
+[wow love place]
+[crust not good	]
+[great place ]
+
+Step7: Convert words to array or numbers using count vetorizer
+
+							wow		love	place	crust	not	good		great	 Like
+wow love place		1			1		1			0		0		0			0				1
+crust not good		0			0		0			1		1		1			0				0
+great place			0			0		1			0		0		0			1				1
+
+Step8: Apply classification supervised Algorithm , Naive Bayes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

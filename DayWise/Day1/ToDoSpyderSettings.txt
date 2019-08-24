@@ -1,0 +1,32 @@
+python -m pip install --upgrade pip    # to be done
+
+conda install tensorflow keras		# to be done
+
+
+#in spyder restart kernel and run the below command
+
+import keras
+
+=========================================
+Do the below settings if auto-complete doesnt work in spyder
+=========================================
+conda list 
+pip list
+
+## if enum / enum34 exists do the following
+
+pip unistall enum
+## OR
+pip unistall enum34
+
+## if enum / enum34 doesnot exists do the following
+
+conda install jedi=0.11.0
+conda install parso=0.1.0
+
+
+
+
+
+
+
